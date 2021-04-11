@@ -1,0 +1,6 @@
+version: "3.3"
+services:
+  companies:
+    build: .
+    ports:
+      - "80:3000"
